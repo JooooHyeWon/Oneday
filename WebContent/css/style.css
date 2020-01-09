@@ -1,0 +1,47 @@
+div, table, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, p {font-family:'Noto Sans','CJK KR';}
+
+.tutor_cont {width:1100px; margin:0 auto; padding-bottom:100px;}
+.tutor_cont, .tutor_cont div {box-sizing:border-box;}
+.tutor_cont .button:hover {cursor:pointer; opacity:0.8;}
+
+
+
+.tutor_cont input:focus, .tutor_cont textarea:focus, .tutor_cont select:focus {outline:none; border:1px solid #888; background:none;}
+.tutor_cont input:focus, .tutor_cont textarea:focus, .tutor_cont select:hover {border:1px solid #888; background:#edf0f4;}
+.tutor_cont input.basic, .tutor_cont select.basic, .tutor_cont textarea.basic{padding:12px 15px; font-size:14px; border-radius:4px; border:1px solid #ddd; box-sizing:border-box;}
+.tutor_cont textarea.on {border:1px solid #ff005a}
+
+
+/* 단계 적힌 부분 01일정장소 02결제 */
+.tutor_cont .title_box {overflow:hidden; margin-top:30px; padding:19px 0; border-bottom:1px solid #c9c9c9}
+.tutor_cont .title_box.right {text-align:right;}
+.tutor_cont .title_box h3 {float:left;overflow:hidden;display:inline-block;font-size:26px;color:#333;}
+.tutor_cont .title_box .steps {display:flex;float:right;font-size:16px;color:#aaaaaa;}
+.tutor_cont .title_box .steps .on {color:#fb878bb5;}
+.tutor_cont .title_box .steps li {margin:0 15px;font-size:18px;font-weight:500;letter-spacing:-0.5px; list-style:none;}
+.tutor_cont .title_box .steps img {width:8px;margin-top:6px;height:initial;}
+
+
+/* 결제 하러 가는 버튼 */
+.tutor_cont .next{background:#888;color:#fff;padding:20px 30px;width:230px;margin:40px 350px;font-size:16px;border-radius:6px;text-align:center; border:none;}
+.tutor_cont .next:hover, .tutor_cont .next.prev:hover{background:#333333}
+.tutor_cont .next.on{background:#fb878bb5; border:none;}
+.tutor_cont .next.on:hover{background:#c80046;}
+.tutor_cont .next.prev{background:#555;margin-right:10px;}
+.tutor_cont .button_box{display:flex;width:480px;margin:40px auto 0 auto;}
+
+
+/* 제목 */
+.tutor_cont .class_title{margin:30px 0;color:#333;font-size:20px;line-height:1.1;letter-spacing:-0.5px;font-weight:500}
+
+/* lessonRegister.jsp의 수업 일정 부분  */
+.tutor_cont .apply{overflow:hidden; margin-top:100px}
+
+/* lessonRegister.jsp의 달력이미지 있는 부분 */
+.tutor_cont .sh_box{width:1080px;float:right;border-top:1px solid #d8d9db}
+.tutor_cont .sh_box .head{font-size:16px;color:#333;font-weight:500;padding:0;padding-top:15px;}
+.tutor_cont .sh_box .head img{width:18px;margin-right:10px;}
+.class_price .regions .region{margin-top:20px;overflow:hidden;}
+
+
+.border {border: 1px solid #e9ecef!important;}

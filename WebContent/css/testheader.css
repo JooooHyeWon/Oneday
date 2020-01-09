@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div, table, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, p {
+	margin: 0; padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+	list-style: none;
+	font-family: "NotoSansCJKkr", "나눔바른고딕", "NanumBarunGothic", "맑은 고딕",
+		"Malgun Gothic", "Apple Gothic", "돋움", Dotum, "Helvetica Neue",
+		Helvetica, Arial, sans-serif !important;
+}
+
+.header_new {box-sizing:border-box; width:100%; height: 80px;}
+.header_new .logo {float: left; padding-left: 0;}
+.header_new .search {width: 450px; height: 55px; margin-top: 6px; float: left; margin-left: 30px;}
+.header_new .search #searchcss:focus {outline: none; border-color: #2196F3;}
+.header_new .search .lcont {width: 420px; height: 40px; border-bottom: 3px solid #fb878b; margin-top: 20px; margin-left:30px;}
+.header_new .search .lcont input[type=text] {width: 350px; padding-top: 3px; padding-left:15px; margin-top: 0px; height: 80%; border: none;	font-size: 16px; color: #333333; font-weight: 500;}
+
+.header_new .rcont {width: 500px; box-sizing: border-box; float: right; position: relative;}
+.header_new .rcont li {font-weight: 600; float: left; font-size: 16px; color: #333333; width: 100px; height: 30px; text-align: center; padding-right: 10px; float: right; cursor: pointer;}
+.header_new .rcont li:visited {color: #000;	text-decoration: none;}
+.header_new .rcont li:link {color: #000; text-decoration: none;}
+.header_new .rcont li:hover {color: #999; text-decoration: none;}
+
+.header_new .rcont .padding28 {padding-top: 28px;}
+
+a:link, a:visited {color: #000;	text-decoration: none;}
+a:active, a:hover {color: #999;	text-decoration: none;}

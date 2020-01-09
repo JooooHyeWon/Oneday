@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes: none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{background:#f2f2f2}/* 2017-11-15 수정 */
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'Apple SD Gothic Neo', '돋움',dotum,sans-serif;color:#000;letter-spacing:-1px}
+a{color:#000;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+
+/* global */
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+.show{display:block}
+.hide{display:none}
+
+/* 공통 */
+.txt_won{font-weight:normal}
+
+
+/* 버튼 */
+.btn_toggle{display:block; float:left;}
+.btn_toggle:hover{text-decoration:none}
+.btn_toggle .ico_arr{position:absolute;top:0;right:0;width:14px;height:8px;background-position:-40px -80px}
+
+
+/* 컨텐츠 */
+.wrap_head{overflow:hidden;padding:27px 32px 28px;border-bottom:1px solid #ededed;background-color:#fff;width: 500px;height: 250px;margin: auto;}
+.wrap_head .tit_info{font-weight:normal;font-size:18px; text-align:center;}
+.list_price{float:right;margin-top:25px}
+.list_price dt{float:left;padding:3px 6px 0 0;color:#808080;font-weight:normal;vertical-align:top;font-size:16px}
+.list_price dd{float:right;font-weight:bold;font-size:18px;vertical-align:top}
+
+
+/* 결제 수단 선택 */
+.wrap_method{position:relative;margin:14px 15px 0;background-color:#fff;border:1px solid #f3f3f3;z-index:5;width: 500px;margin: auto;}
+.method_type{padding:0 32px 15px 31px}
+
+
+/* 기본상태 */
+.method_normal{background-color:#fb878bb5; cursor:pointer; width:100%}
+.method_normal .method_head{position:relative; padding-top:10px}
+#divNormalPayment > div > span {margin-left:7px}
+
+
+.method_type .method_head .tit_normal{margin-top:0}
+.method_type .tit_normal{display:inline;margin-top:16px;font-weight:normal}
+
+
+
+.wrap_item{float:right;width:392px;height:40px;margin-top:7px;font-size:16px}/* 2017-11-21 수정 */
+
+
+/* 샘플 카카오 페이 */
+.method_simple{background-color:#ffeb00; cursor:pointer; width:100%}/* 2017-11-21 수정 *//* 2017-11-22 수정 */
+
+.method_type .tit_pay{display:block;padding-top:20px;font-size:14px;color:#222; float:left;}
+
+.method_simple .checked .lab_method{font-weight:bold}/* 2017-11-17 수정 */
+
+
+/* 체크박스 */
+.checkbox_agree {height:40px; line-height:40px;}
+.chbox_agree_in {position:relative; top:-4px; margin-left:15px !important;}
+.chbox_agree_span {margin-left:5px;}

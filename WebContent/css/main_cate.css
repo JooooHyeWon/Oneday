@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.right {
+	width: 47%;
+	float: right;
+	height: 250px;
+	margin: 40px 0 0 0;
+}
+
+.cate {
+	display: block;
+}
+
+.cate ul {
+	padding: 0;
+	margin: 0;
+}
+
+.cate ul li:first-child {
+	margin: 0 10px 0 0px;
+}
+
+.cate ul li {
+	margin: 0 10px;
+}
+
+.cate ul li a {
+	color: #fff;
+	font-weight: 900;
+    font-size: 1.3rem;
+	
+}
+
+.cate ul li a.on {
+	color: #121212;
+}
+
+.sub {
+	padding-top: 25px;
+}
+
+.sub a {
+	font-size: 20px;
+}
+
+.best {
+       width: 70px;
+    height: 30px;
+    color: rgb(240, 27, 27);
+    display: inline-block;
+    border-radius: 60%;
+    margin-left: 5px;
+    position: relative;
+   bottom: 13px;
+    border: 0;
+}
+
+.best span {
+	font-weight: bold;
+	padding-left: 17px;
+	vertical-align: sub;
+	position: relative;
+    left: -21px;
+}
+
+.subject a {
+	color: #000;
+	text-decoration: none;
+	    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.sub-contents {
+	padding-top: 15px;
+	width: 325px;
+}
+
+.sub-contents span {
+	font-size: 17px;
+}
+
+.content {
+	width: 1100px;
+	height: 310px;
+	background-color: #fb878bb5;
+	margin: 0 auto;
+}
+
+.content .img {
+	width: 470px;
+	height: 285px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+	background-color: #fff
+}
+
+.content .img div {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+	padding: 5px;
+	background-color: #fff
+}
+
+.content .img div img {
+	width: 100%;
+	height: 100%
+}
+
+.content-wrap {
+	margin: 0 15%;
+}
+
+.content-wrap2 {
+	margin: 0 15%;
+}
+
+.content-wrap {
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+.cate-wrap {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.cate-wrap h1 {
+	padding-left:17%;
+	font-size: 3rem;
+}
+.cate-wrap h1 img{
+	width:50px;
+	height:50px;
+}
+
+.cate-wrap ul {
+	margin: 0;
+	padding: 0;
+	background-color: #fb878b59;
+	text-align: center;
+}
+
+.cate-wrap ul li {
+	padding: 5px 0;
+}
+
+.cate-wrap ul li a {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 35px;
+}
+
+.cate-wrap ul li a:hover {
+	color: #fff
+}
+
+.tea_footer a {
+	font-size: 50px;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	padding-left: 30%;
+}
+
+.tea_footer a img {
+	width: 50px;
+	height: 50px;
+}

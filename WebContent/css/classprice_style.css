@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.class_price .regions .title{color:#333;font-size:16px;font-weight:bold;}
+.class_price .regions .region{margin:20px 0;overflow-x:hidden;overflow:hidden}
+.class_price .regions .region.on{height:360px;overflow:auto;}  <!-- 없어도 될 듯 -->
+.class_price .regions .region::-webkit-scrollbar {width: 5px;} <!-- 없어도 될 듯 -->
+.class_price .regions .region::-webkit-scrollbar-thumb {background: #888;} <!-- 없어도 될 듯 -->
+
+
+.class_price .regions .region .option .top .timedetail{width:180px;letter-spacing:-0.7px;display:inline-block;}
+.class_price .regions .region .option .top .timedetail .indate{display:inline-block;}
+.class_price .regions .region .option .top span{color:#ddd; margin:0px 10px;}
+.class_price .regions .region .option .top font{color:#555;}
+.class_price .regions .region .option .top{color:#555555;font-size:14px;padding:13px 0;border-bottom:1px solid #ddd;}
+
+/* 
+.class_price .regions .region .option.on .box{display:block;}
+.class_price .regions .region .option .box{display:none;background:#f1f1f1;padding:10px 15px 20px 15px;color:#888;}
+.class_price .regions .region .option .box .info{margin:10px 0;}
+.class_price .regions .region .option .box .info .item{margin:3px 0;}
+.class_price .regions .region .option .box .info .item font{color:#555}
+.class_price .regions .region .option .box .info .detail_info{margin-top:10px;} class=box 비어있음 */
+
+.class_price .regions .region .option:first-child{border-top:1px solid #ddd}
+.class_price .regions .region .option img{float:right;cursor:pointer;margin-right:10px;}
+.class_price .regions .region .option img.dwn{margin-top:3px;display:block;}
+.class_price .regions .region .option img.up{display:none;}
+
+.class_price .more{cursor:pointer;text-align:center;padding-top:10px;font-size:14px;color:#333;font-weight:bold;}
+.class_price .more img{width:13px;position:absolute;margin-left:-10px;margin-top:1px;}
+.class_price .info{color:#888;margin-top:30px;margin-bottom:10px;}
+.class_price .info img{margin-right:5px;}
+.class_price .more img:first-child{display:initial;}
+.class_price .more img:nth-child(2){display:none;}
+.class_price .more.on img:first-child{display:none;}
+.class_price .more.on img:nth-child(2){display:initial;}
